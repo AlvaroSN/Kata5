@@ -3,12 +3,16 @@ package kata5;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
+import static kata5.CrearTabla.createNewTable;
 
 public class Kata5 {
     public static void main(String[] args) {
-        //connect();
+        /*
+        connect();
         SelectApp app = new SelectApp();
         app.selectAll();
+        */
+        createNewTable();
     }
     
     private static void connect(){
