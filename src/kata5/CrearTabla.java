@@ -9,7 +9,7 @@ public class CrearTabla {
     
     public static void createNewTable(){
         String url = "jdbc:sqlite:Kata5.db";
-        String sql = "CREATE TABLE email (\n"
+        String sql = "CREATE TABLE emails (\n"
                 + " `id` integer primary key autoincrement,\n"
                 + " `mail` text not null)";
         try(Connection conn = DriverManager.getConnection(url);
